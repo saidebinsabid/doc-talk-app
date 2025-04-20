@@ -13,6 +13,8 @@ export const router = createBrowserRouter([
             {
                 path: '/',
                 Component: Home,
+                hydrateFallbackElement:<span className="loading loading-bars loading-xl"></span>,
+                loader: ()=> fetch('../doctors.json'),
             },
             {
                 path: "/booking",

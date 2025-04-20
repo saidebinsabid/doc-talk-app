@@ -3,13 +3,13 @@ import bannerImage1 from "../assets/banner-img-1.jpg";
 import bannerImage2 from "../assets/banner-img-2.jpg";
 const Hero = () => {
   return (
-    <div className="w-11/12 mx-auto rounded-[24px] border-[2px] border-transparent bg-gradient-to-tr from-transparent to-slate-50 p-[1px]">
-      <div className="w-full h-full rounded-[24px] bg-gradient-to-t from-transparent to-gray-200">
+    <div className="w-11/12 mx-auto rounded-[24px] border-[3px] border-transparent bg-gradient-to-bl from-transparent to-white p-[1px]">
+      <div className="w-full h-full rounded-[24px] bg-gradient-to-br from-transparent to-white">
         <div className="text-center pt-4">
           <h1 className="text-4xl font-bold">
             Dependable Care, Backed by Trusted <br /> Professionals.
           </h1>
-          <p className="w-2/3 mx-auto pt-6 text-gray-500">
+          <p className="w-2/3 mx-auto pt-6 text-gray-700">
             Our platform connects you with verified, experienced doctors across
             various specialties — all at your convenience. Whether it's a
             routine checkup or urgent consultation, book appointments in minutes
@@ -20,7 +20,7 @@ const Hero = () => {
             <input
               className="bg-white border border-gray-300 w-2/3 h-12 px-4 focus:outline-none focus:shadow-outline md:mr-2 md:mb-0 rounded-2xl"
               type="text"
-              placeholder="Search Phone by Name"
+              placeholder="Search any doctor..."
             />
             <button className="relative inline-block text-lg group cursor-pointer">
               <a className="btn bg-[#176AE5] rounded-2xl text-white tracking-wider font-light">

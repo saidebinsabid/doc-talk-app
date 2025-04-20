@@ -76,7 +76,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="gap-6 menu-horizontal px-1 text-gray-600">
+        <ul className="gap-2 md:gap-8 menu-horizontal px-1 text-gray-600">
           <li>
             <NavLink
               className={({ isActive }) =>
