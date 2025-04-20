@@ -1,0 +1,134 @@
+[
+  {
+    "Id": 1,
+    "Name": "Dr. Ayesha Siddiqua",
+    "Education": "MBBS, MD",
+    "Speciality": "Cardiology",
+    "Experience": "6 Years Experience",
+    "Registration Number": "BD 12451254",
+    "Availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "Consultation Fee": 1200,
+    "Image": "https://i.ibb.co.com/W496Dtz5/d1.jpg"
+  },
+  {
+    "Id": 2,
+    "Name": "Dr. Rezaul Karim",
+    "Education": "MBBS, MD",
+    "Speciality": "Neurology",
+    "Experience": "8 Years Experience",
+    "Registration Number": "BD 12451255",
+    "Availability": ["Tuesday", "Wednesday", "Friday"],
+    "Consultation Fee": 1500,
+    "Image": "https://i.ibb.co.com/zW7k2r6C/d2.jpg"
+  },
+  {
+    "Id": 3,
+    "Name": "Dr. Nusrat Jahan",
+    "Education": "MBBS, MD",
+    "Speciality": "Dermatology",
+    "Experience": "5 Years Experience",
+    "Registration Number": "BD 12451256",
+    "Availability": ["Monday", "Wednesday", "Thursday"],
+    "Consultation Fee": 1000,
+    "Image": "https://i.ibb.co.com/N2jD4myt/d3.jpg"
+  },
+  {
+    "Id": 4,
+    "Name": "Dr. Mahmud Hasan",
+    "Education": "MBBS, MD",
+    "Speciality": "Gastroenterology",
+    "Experience": "10 Years Experience",
+    "Registration Number": "BD 12451257",
+    "Availability": ["Monday", "Tuesday", "Thursday"],
+    "Consultation Fee": 1300,
+    "Image": "https://i.ibb.co.com/0pxFrQzW/d4.jpg"
+  },
+  {
+    "Id": 5,
+    "Name": "Dr. Sultana Rahman",
+    "Education": "MBBS, MD",
+    "Speciality": "Endocrinology",
+    "Experience": "7 Years Experience",
+    "Registration Number": "BD 12451258",
+    "Availability": ["Wednesday", "Thursday", "Friday"],
+    "Consultation Fee": 1100,
+    "Image": "https://i.ibb.co.com/XxkkpgkY/d6.jpg"
+  },
+  {
+    "Id": 6,
+    "Name": "Dr. Farhan Ahmed",
+    "Education": "MBBS, MD",
+    "Speciality": "Orthopedics",
+    "Experience": "9 Years Experience",
+    "Registration Number": "BD 12451259",
+    "Availability": ["Monday", "Tuesday", "Friday"],
+    "Consultation Fee": 1400,
+    "Image": "https://i.ibb.co.com/Ddxr8Sf/d5.jpg"
+  },
+  {
+    "Id": 7,
+    "Name": "Dr. Samira Khan",
+    "Education": "MBBS, MD",
+    "Speciality": "Pediatrics",
+    "Experience": "11 Years Experience",
+    "Registration Number": "BD 12451260",
+    "Availability": ["Monday", "Wednesday", "Friday"],
+    "Consultation Fee": 1350,
+    "Image": "https://i.ibb.co.com/MkT7dDdQ/d8.jpg"
+  },
+  {
+    "Id": 8,
+    "Name": "Dr. Aminul Islam",
+    "Education": "MBBS, MD",
+    "Speciality": "Psychiatry",
+    "Experience": "4 Years Experience",
+    "Registration Number": "BD 12451261",
+    "Availability": ["Tuesday", "Thursday", "Friday"],
+    "Consultation Fee": 950,
+    "Image": "https://i.ibb.co.com/VWdk67kH/d10.jpg"
+  },
+  {
+    "Id": 9,
+    "Name": "Dr. Nabila Hossain",
+    "Education": "MBBS, MD",
+    "Speciality": "Gynecology",
+    "Experience": "6.5 Years Experience",
+    "Registration Number": "BD 12451262",
+    "Availability": ["Monday", "Thursday", "Friday"],
+    "Consultation Fee": 1250,
+    "Image": "https://i.ibb.co.com/jPRG644q/d7.jpg"
+  },
+  {
+    "Id": 10,
+    "Name": "Dr. Saif Uddin",
+    "Education": "MBBS, MD",
+    "Speciality": "Urology",
+    "Experience": "12 Years Experience",
+    "Registration Number": "BD 12451263",
+    "Availability": ["Wednesday", "Thursday", "Friday"],
+    "Consultation Fee": 1600,
+    "Image": "https://i.ibb.co.com/Ps4JJLDy/d11.jpg"
+  },
+  {
+    "Id": 11,
+    "Name": "Dr. Tanzim Chowdhury",
+    "Education": "MBBS, MD",
+    "Speciality": "Oncology",
+    "Experience": "5.5 Years Experience",
+    "Registration Number": "BD 12451264",
+    "Availability": ["Monday", "Tuesday", "Friday"],
+    "Consultation Fee": 1450,
+    "Image": "https://i.ibb.co.com/mrvPZ2J4/d12.jpg"
+  },
+  {
+    "Id": 12,
+    "Name": "Dr. Kabir Hossain",
+    "Education": "MBBS, MD",
+    "Speciality": "Nephrology",
+    "Experience": "7.5 Years Experience",
+    "Registration Number": "BD 12451265",
+    "Availability": ["Tuesday", "Wednesday", "Thursday"],
+    "Consultation Fee": 1150,
+    "Image": "https://i.ibb.co.com/3mrR2s7Z/d9.jpg"
+  }
+]

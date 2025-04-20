@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What is useState and how does it work in React?",
+    "answer": "useState is a React hook that lets you add state to your components. You call it with an initial value, and it returns a variable and a function to update that value. When you update the state, the component re-renders with the new value.",
+    "added": "at 2025-04-20"
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of useEffect in React?",
+    "answer": "useEffect is used to run side effects in React components. It lets you do things like fetch data, update the DOM, or set up timers after a component renders. You can also control when it runs using a dependency array.",
+    "added": "at 2025-04-19"
+  },
+  {
+    "id": 3,
+    "question": "What is a custom hook in React and when should you use one?",
+    "answer": "A custom hook is a JavaScript function that starts with 'use' and uses other hooks inside it. You use it when you want to reuse logic across components. It helps keep your code clean and organized.",
+    "added": "at 2025-04-18"
+  },
+  {
+    "id": 4,
+    "question": "Difference between controlled and uncontrolled components? Which one is better?",
+    "answer": "Controlled components use React state to manage form inputs, while uncontrolled components use the DOM directly. Controlled ones are better for consistency and validation, especially in large forms.",
+    "added": "at 2025-04-17"
+  },
+  {
+    "id": 5,
+    "question": "Tell us something about useFormStatus() (explore and explain)?",
+    "answer": "useFormStatus is a React hook used in forms to get info like if the form is being submitted. It helps show loading indicators or disable buttons during submission. It works well with server actions in React.",
+    "added": "at 2025-04-16"
+  }
+]
