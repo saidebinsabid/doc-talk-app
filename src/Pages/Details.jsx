@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import { useLoaderData, useNavigate, useParams } from "react-router";
 import DoctorDetailsContainer from "../Components/DoctorDetailsContainer";
 import { addBookings } from "../Utils";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
+import DoctorNotFound from "../Components/DoctorNotFound";
 const Details = () => {
   const { id } = useParams();
   const data = useLoaderData();
@@ -11,6 +12,7 @@ const Details = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  if (!singleDoctor) return <DoctorNotFound></DoctorNotFound>;
   const handleBookings = () => {
     const result = addBookings(singleDoctor);
     if (result.status === "error") {
