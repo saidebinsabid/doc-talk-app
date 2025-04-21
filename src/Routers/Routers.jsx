@@ -23,6 +23,8 @@ export const router = createBrowserRouter([
             {
                 path: "/blog",
                 Component: Blogs,
+                hydrateFallbackElement:<span className="loading loading-bars loading-xl"></span>,
+                loader: ()=> fetch('../questions.json'),
             },
             {
                 path: "/error",
