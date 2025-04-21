@@ -1,7 +1,5 @@
-import React from "react";
 import { Link, useRouteError } from "react-router";
 import errorImage from "../assets/error-page.jpg";
-import Navbar from "../Components/Navbar";
 const ErrorPage = () => {
   const error = useRouteError();
   return (
@@ -15,10 +13,11 @@ const ErrorPage = () => {
           {error?.error?.message ||
             "Oops! The page you'r looking for doesn't exist"}
         </p>
-        <Link to="/">
-          <button className="btn bg-[#176AE5] text-white tracking-wider font-light mt-4">
-            Go To Homepage
-          </button>
+        <Link
+          to="/"
+          className="btn bg-[#176AE5] text-white tracking-wider font-light mt-4"
+        >
+          Go To Homepage
         </Link>
       </div>
     </>

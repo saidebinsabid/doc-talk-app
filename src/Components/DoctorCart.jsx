@@ -1,4 +1,3 @@
-import React from "react";
 import { PiTrademarkRegisteredLight } from "react-icons/pi";
 import { Link } from "react-router";
 
@@ -42,7 +41,10 @@ const DoctorCart = ({ data }) => {
           </p>
         </div>
         <div className="card-actions justify-center mt-2">
-          <Link to={`/details/${id}`} className="btn border-2 border-blue-700 bg-white hover:bg-blue-700 hover:text-white  w-5/6 rounded-4xl">
+          <Link
+            to={`/details/${id}`}
+            className="btn border-2 border-blue-700 bg-white hover:bg-blue-700 hover:text-white  w-5/6 rounded-4xl"
+          >
             View Details
           </Link>
         </div>

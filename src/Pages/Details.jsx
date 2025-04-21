@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useLoaderData, useParams } from "react-router";
 import DoctorDetailsContainer from "../Components/DoctorDetailsContainer";
 const Details = () => {
@@ -6,6 +6,9 @@ const Details = () => {
   const data = useLoaderData();
   const singleDoctor = data.find((doctor) => doctor.id === parseInt(id));
   // console.log(singleDoctor);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="flex flex-col gap-6 px-4 py-8 w-11/12 mx-auto font-plus">
       <div className="text-center bg-white rounded-2xl p-6">
