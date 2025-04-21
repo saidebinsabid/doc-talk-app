@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
+import logoImage from '../assets/logo.png'
 const Navbar = () => {
   return (
     <div className="navbar p-0 bg-base-100 mx-auto px-8 md:px-12 lg:px-16 xl:px-24 font-plus">
@@ -69,7 +70,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center">
-          <img className="mr-2" src="logo.png" alt="logo" width={30} />
+          <img className="mr-2" src={logoImage} alt="logo" width={30} />
           <Link to="/" className="md:text-2xl font-extrabold">
             Doc Talk
           </Link>
@@ -120,7 +121,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-[#176AE5] rounded-2xl text-white tracking-wider font-light">
+        <a className="btn bg-[#176AE5] rounded-2xl text-white tracking-wider font-black">
           Emergency
         </a>
       </div>

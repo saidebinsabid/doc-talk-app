@@ -1,13 +1,13 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
-
+import logoImage from '../assets/logo.png'
 const Footer = () => {
   return (
     <>
-      <footer className="footer footer-horizontal footer-center text-base-content rounded p-10">
+      <footer className="footer footer-horizontal footer-center text-base-content rounded p-10 font-plus">
         <Link to="/">
           <div className="flex items-center">
-            <img className="mr-2" src="logo.png" alt="logo" width={30} />
+            <img className="mr-2" src={logoImage} alt="logo" width={30} />
             <h1 to="/" className="md:text-2xl font-extrabold">
               Doc Talk
             </h1>

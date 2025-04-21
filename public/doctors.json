@@ -4,131 +4,155 @@
     "name": "Dr. Ayesha Siddiqua",
     "education": "MBBS, MD",
     "speciality": "Cardiology",
+    "speciality_details": "Heart diseases & care",
     "experience": "6 Years Experience",
     "registration_number": "BD 12451254",
     "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     "consultation_fee": 1200,
-    "image": "https://i.ibb.co.com/GQ28V9Pn/Screenshot-2025-04-21-031559.png"
+    "image": "https://i.ibb.co.com/GQ28V9Pn/Screenshot-2025-04-21-031559.png",
+    "work_at": "National Heart Institute, Dhaka"
   },
   {
     "id": 2,
     "name": "Dr. Rezaul Karim",
     "education": "MBBS, MD",
     "speciality": "Neurology",
+    "speciality_details": "Brain & nerve disorders",
     "experience": "8 Years Experience",
     "registration_number": "BD 12451255",
     "availability": ["Tuesday", "Wednesday", "Friday"],
     "consultation_fee": 1500,
-    "image": "https://i.ibb.co.com/JW94tmLK/Screenshot-2025-04-21-030751.png"
+    "image": "https://i.ibb.co.com/JW94tmLK/Screenshot-2025-04-21-030751.png",
+    "work_at": "Bangladesh Specialized Hospital, Dhaka"
   },
   {
     "id": 3,
     "name": "Dr. Nusrat Jahan",
     "education": "MBBS, MD",
     "speciality": "Dermatology",
+    "speciality_details": "Skin, hair, nail care",
     "experience": "5 Years Experience",
     "registration_number": "BD 12451256",
     "availability": ["Monday", "Wednesday", "Thursday"],
     "consultation_fee": 1000,
-    "image": "https://i.ibb.co.com/XZwy8jcs/Screenshot-2025-04-21-031625.png"
+    "image": "https://i.ibb.co.com/XZwy8jcs/Screenshot-2025-04-21-031625.png",
+    "work_at": "Popular Medical College Hospital, Dhaka"
   },
   {
     "id": 4,
     "name": "Dr. Mahmud Hasan",
     "education": "MBBS, MD",
     "speciality": "Gastroenterology",
+    "speciality_details": "Digestive system issues",
     "experience": "10 Years Experience",
     "registration_number": "BD 12451257",
     "availability": ["Monday", "Tuesday", "Thursday"],
     "consultation_fee": 1300,
-    "image": "https://i.ibb.co.com/twQfK9PQ/Screenshot-2025-04-21-030859.png"
+    "image": "https://i.ibb.co.com/twQfK9PQ/Screenshot-2025-04-21-030859.png",
+    "work_at": "Ibn Sina Hospital, Dhaka"
   },
   {
     "id": 5,
     "name": "Dr. Sultana Rahman",
     "education": "MBBS, MD",
     "speciality": "Endocrinology",
+    "speciality_details": "Hormonal disorder treatment",
     "experience": "7 Years Experience",
     "registration_number": "BD 12451258",
     "availability": ["Wednesday", "Thursday", "Friday"],
     "consultation_fee": 1100,
-    "image": "https://i.ibb.co.com/d4JYdTPs/Screenshot-2025-04-21-031731.png"
+    "image": "https://i.ibb.co.com/d4JYdTPs/Screenshot-2025-04-21-031731.png",
+    "work_at": "Dhaka Medical College Hospital, Dhaka"
   },
   {
     "id": 6,
     "name": "Dr. Farhan Ahmed",
     "education": "MBBS, MD",
     "speciality": "Orthopedics",
+    "speciality_details": "Bone & joint care",
     "experience": "9 Years Experience",
     "registration_number": "BD 12451259",
     "availability": ["Monday", "Tuesday", "Friday"],
     "consultation_fee": 1400,
-    "image": "https://i.ibb.co.com/Vcg6Sg20/Screenshot-2025-04-21-030739.png"
+    "image": "https://i.ibb.co.com/Vcg6Sg20/Screenshot-2025-04-21-030739.png",
+    "work_at": "Square Hospital, Dhaka"
   },
   {
     "id": 7,
     "name": "Dr. Samira Khan",
     "education": "MBBS, MD",
     "speciality": "Pediatrics",
+    "speciality_details": "Child health specialist",
     "experience": "11 Years Experience",
     "registration_number": "BD 12451260",
     "availability": ["Monday", "Wednesday", "Friday"],
     "consultation_fee": 1350,
-    "image": "https://i.ibb.co.com/cXbDzJKV/Screenshot-2025-04-21-031751.png"
+    "image": "https://i.ibb.co.com/cXbDzJKV/Screenshot-2025-04-21-031751.png",
+    "work_at": "Apollo Hospital, Dhaka"
   },
   {
     "id": 8,
     "name": "Dr. Aminul Islam",
     "education": "MBBS, MD",
     "speciality": "Psychiatry",
+    "speciality_details": "Mental health therapy",
     "experience": "4 Years Experience",
     "registration_number": "BD 12451261",
     "availability": ["Tuesday", "Thursday", "Friday"],
     "consultation_fee": 950,
-    "image": "https://i.ibb.co.com/nsdBCpdv/Screenshot-2025-04-21-030726.png"
+    "image": "https://i.ibb.co.com/nsdBCpdv/Screenshot-2025-04-21-030726.png",
+    "work_at": "Labaid Mental Health Center, Dhaka"
   },
   {
     "id": 9,
     "name": "Dr. Nabila Hossain",
     "education": "MBBS, MD",
     "speciality": "Gynecology",
+    "speciality_details": "Women's reproductive care",
     "experience": "6.5 Years Experience",
     "registration_number": "BD 12451262",
     "availability": ["Monday", "Thursday", "Friday"],
     "consultation_fee": 1250,
-    "image": "https://i.ibb.co.com/XxhBfBMM/Screenshot-2025-04-21-032001.png"
+    "image": "https://i.ibb.co.com/XxhBfBMM/Screenshot-2025-04-21-032001.png",
+    "work_at": "United Hospital, Dhaka"
   },
   {
     "id": 10,
     "name": "Dr. Saif Uddin",
     "education": "MBBS, MD",
     "speciality": "Urology",
+    "speciality_details": "Urinary system care",
     "experience": "12 Years Experience",
     "registration_number": "BD 12451263",
     "availability": ["Wednesday", "Thursday", "Friday"],
     "consultation_fee": 1600,
-    "image": "https://i.ibb.co.com/Cp7vV7Jj/Screenshot-2025-04-21-030713.png"
+    "image": "https://i.ibb.co.com/Cp7vV7Jj/Screenshot-2025-04-21-030713.png",
+    "work_at": "CMH Hospital, Dhaka"
   },
   {
     "id": 11,
     "name": "Dr. Tanzim Chowdhury",
     "education": "MBBS, MD",
     "speciality": "Oncology",
+    "speciality_details": "Cancer diagnosis & treatment",
     "experience": "5.5 Years Experience",
     "registration_number": "BD 12451264",
     "availability": ["Monday", "Tuesday", "Friday"],
     "consultation_fee": 1450,
-    "image": "https://i.ibb.co.com/6RkTxn1p/Screenshot-2025-04-21-030702.png"
+    "image": "https://i.ibb.co.com/6RkTxn1p/Screenshot-2025-04-21-030702.png",
+    "work_at": "Delta Medical Hospital, Dhaka"
   },
   {
     "id": 12,
     "name": "Dr. Kabir Hossain",
     "education": "MBBS, MD",
     "speciality": "Nephrology",
+    "speciality_details": "Kidney care & dialysis",
     "experience": "7.5 Years Experience",
     "registration_number": "BD 12451265",
     "availability": ["Tuesday", "Wednesday", "Thursday"],
     "consultation_fee": 1150,
-    "image": "https://i.ibb.co.com/WvgNPbTQ/Screenshot-2025-04-21-030653.png"
+    "image": "https://i.ibb.co.com/WvgNPbTQ/Screenshot-2025-04-21-030653.png",
+    "work_at": "Kidney Foundation Hospital, Dhaka"
   }
 ]

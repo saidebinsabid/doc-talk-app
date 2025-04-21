@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import Booking from "../Pages/Booking";
 import Blogs from "../Pages/Blogs";
 import ErrorPage from "../Pages/ErrorPage";
+import Details from "../Pages/Details";
 
 export const router = createBrowserRouter([
     {
@@ -19,6 +20,12 @@ export const router = createBrowserRouter([
             {
                 path: "/booking",
                 Component: Booking,
+            },
+            {
+                path: "/details/:id",
+                Component: Details,
+                hydrateFallbackElement:<span className="loading loading-bars loading-xl"></span>,
+                loader: ()=> fetch('../doctors.json'),
             },
             {
                 path: "/blog",

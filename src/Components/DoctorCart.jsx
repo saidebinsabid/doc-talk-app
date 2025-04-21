@@ -1,5 +1,6 @@
 import React from "react";
 import { PiTrademarkRegisteredLight } from "react-icons/pi";
+import { Link } from "react-router";
 
 const DoctorCart = ({ data }) => {
   const {
@@ -9,12 +10,13 @@ const DoctorCart = ({ data }) => {
     experience,
     registration_number,
     image,
-  } = data;
+    id,
+  } = data || {};
   return (
     <div className="card bg-base-100 shadow hover:shadow-xl font-plus">
       <figure className="aspect-[3/2] bg-white p-6 flex items-center justify-center">
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-2xl"
           src={image}
           alt="Doctor_Image"
         />
@@ -40,9 +42,9 @@ const DoctorCart = ({ data }) => {
           </p>
         </div>
         <div className="card-actions justify-center mt-2">
-          <button className="btn border-2 border-blue-700 bg-white hover:bg-blue-700 hover:text-white  w-5/6 rounded-4xl">
+          <Link to={`/details/${id}`} className="btn border-2 border-blue-700 bg-white hover:bg-blue-700 hover:text-white  w-5/6 rounded-4xl">
             View Details
-          </button>
+          </Link>
         </div>
       </div>
     </div>
