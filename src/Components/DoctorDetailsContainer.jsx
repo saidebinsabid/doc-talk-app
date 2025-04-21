@@ -1,9 +1,8 @@
 import React from "react";
 import { PiTrademarkRegisteredLight } from "react-icons/pi";
 import { BiErrorCircle } from "react-icons/bi";
-import { Link } from "react-router";
 
-const DoctorDetailsContainer = ({ singleDoctor }) => {
+const DoctorDetailsContainer = ({ singleDoctor, handleBookings }) => {
   const {
     name,
     education,
@@ -73,9 +72,12 @@ const DoctorDetailsContainer = ({ singleDoctor }) => {
           </span>
         </div>
         <div className="card-actions justify-center mt-2">
-          <Link className="btn border-2 border-blue-700 bg-blue-700 hover:bg-blue-800 text-white  w-5/6 rounded-4xl tracking-wider font-black">
+          <button
+            onClick={handleBookings}
+            className="btn border-2 border-blue-700 bg-blue-700 hover:bg-blue-800 text-white  w-5/6 rounded-4xl tracking-wider font-black"
+          >
             Book Appointment Now
-          </Link>
+          </button>
         </div>
       </div>
     </>

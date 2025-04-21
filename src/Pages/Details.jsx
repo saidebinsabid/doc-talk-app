@@ -1,14 +1,25 @@
 import React, { useEffect } from "react";
-import { useLoaderData, useParams } from "react-router";
+import { useLoaderData, useNavigate, useParams } from "react-router";
 import DoctorDetailsContainer from "../Components/DoctorDetailsContainer";
+import { addBookings } from "../Utils";
+import toast, { Toaster } from "react-hot-toast";
 const Details = () => {
   const { id } = useParams();
   const data = useLoaderData();
+  const navigate = useNavigate();
   const singleDoctor = data.find((doctor) => doctor.id === parseInt(id));
-  // console.log(singleDoctor);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const handleBookings = () => {
+    const result = addBookings(singleDoctor);
+    if (result.status === "error") {
+      toast.error(result.message);
+    } else {
+      sessionStorage.setItem("booking_success", result.message);
+      navigate("/booking");
+    }
+  };
   return (
     <div className="flex flex-col gap-6 px-4 py-8 w-11/12 mx-auto font-plus">
       <div className="text-center bg-white rounded-2xl p-6">
@@ -22,6 +33,7 @@ const Details = () => {
       </div>
       <DoctorDetailsContainer
         singleDoctor={singleDoctor}
+        handleBookings={handleBookings}
       ></DoctorDetailsContainer>
     </div>
   );
