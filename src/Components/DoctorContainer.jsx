@@ -14,7 +14,7 @@ const DoctorContainer = ({ data }) => {
   return (
     <div className="w-11/12 mx-auto py-12 font-plus">
       <div className="text-center py-6">
-        <h1 className="text-4xl">Our Best Doctors</h1>
+        <h1 className="text-4xl font-black">Our Best Doctors</h1>
         <p className="w-2/3 mx-auto pt-6 text-gray-700">
           Our platform connects you with verified, experienced doctors across
           various specialties — all at your convenience. Whether it's a routine

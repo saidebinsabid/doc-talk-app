@@ -20,10 +20,8 @@ const MainLayout = () => {
     <div>
       <Navbar></Navbar>
       <div className="min-h-[calc(100vh-132px)] bg-gray-200">
-        {/* Show the loader only when navigation state is loading */}
         {loading && (
           <div className="absolute inset-0 flex justify-center items-center z-50 bg-white bg-opacity-75">
-            {/* DaisyUI Loader */}
             <span className="loading loading-bars loading-xl"></span>
           </div>
         )}
