@@ -3,6 +3,7 @@ import { getBookings, removeBooking } from "../Utils";
 import BookingDoctorCart from "../Components/BookingDoctorCart";
 import EmptyState from "../Components/EmptyState";
 import toast from "react-hot-toast";
+import BookingChart from "../Components/BookingChart";
 
 const Booking = () => {
   const [displayBookings, setDisplayBookings] = useState([]);
@@ -25,6 +26,7 @@ const Booking = () => {
   if (displayBookings.length < 1) return <EmptyState></EmptyState>;
   return (
     <div className="w-11/12 mx-auto flex flex-col gap-6 py-12 font-plus">
+      <BookingChart data={displayBookings}></BookingChart>
       <div className="text-center">
         <h1 className="text-4xl font-black">My Today Appointments</h1>
         <p className="w-2/3 mx-auto pt-6 text-gray-700">
