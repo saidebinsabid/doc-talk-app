@@ -29,7 +29,7 @@ const Hero = () => {
             </button>
           </form>
         </div>
-        <div className="w-11/12 grid grid-cols-1 md:grid-cols-2 mx-auto py-8 justify-center">
+        <div className="w-11/12 grid grid-cols-1 gap-2 md:grid-cols-2 mx-auto py-8 justify-center">
           <img
             className="rounded-3xl mx-auto"
             src={bannerImage1}
