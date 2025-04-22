@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PiTrademarkRegisteredLight } from "react-icons/pi";
 import { BiErrorCircle } from "react-icons/bi";
+import { useLocation } from "react-router";
 
 const DoctorDetailsContainer = ({ singleDoctor, handleBookings }) => {
   const {
@@ -14,6 +15,14 @@ const DoctorDetailsContainer = ({ singleDoctor, handleBookings }) => {
   } = singleDoctor || {};
   const today = new Date().toLocaleDateString("en-US", { weekday: "long" });
   const isAvailableToday = singleDoctor?.availability?.includes(today);
+  const location = useLocation();
+  useEffect(() => {
+    if (singleDoctor) {
+      document.title = `${singleDoctor.name}`;
+    } else {
+      document.title = "Doctor Details";
+    }
+  }, [location.pathname, singleDoctor]);
   return (
     <>
       <div className="p-6 bg-white rounded-2xl flex flex-col gap-4 md:flex-row">
@@ -85,7 +94,7 @@ const DoctorDetailsContainer = ({ singleDoctor, handleBookings }) => {
             className={`btn border-2  w-5/6 rounded-4xl tracking-wider font-black
               ${
                 !isAvailableToday
-                  ? "border-red-300 bg-white text-black cursor-not-allowed opacity-50"
+                  ? "border-red-300 text-black cursor-not-allowed opacity-50"
                   : "border-blue-700 bg-blue-700 hover:bg-blue-800 text-white "
               }`}
             disabled={!isAvailableToday}

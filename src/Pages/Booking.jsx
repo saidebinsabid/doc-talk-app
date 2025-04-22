@@ -4,9 +4,11 @@ import BookingDoctorCart from "../Components/BookingDoctorCart";
 import EmptyState from "../Components/EmptyState";
 import toast from "react-hot-toast";
 import BookingChart from "../Components/BookingChart";
+import { useLocation } from "react-router";
 
 const Booking = () => {
   const [displayBookings, setDisplayBookings] = useState([]);
+  const location = useLocation();
   useEffect(() => {
     const savedBooking = getBookings();
     setDisplayBookings(savedBooking);
@@ -23,6 +25,15 @@ const Booking = () => {
     removeBooking(id);
     setDisplayBookings(getBookings());
   };
+  useEffect(() => {
+    if (location.pathname === "/booking") {
+      document.title = "Booking";
+    }
+    return () => {
+      document.title = "";
+    };
+  }, [location]);
+
   if (displayBookings.length < 1) return <EmptyState></EmptyState>;
   return (
     <div className="w-11/12 mx-auto flex flex-col gap-6 py-12 font-plus">
