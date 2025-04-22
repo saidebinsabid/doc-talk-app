@@ -15,6 +15,7 @@ const DoctorDetailsContainer = ({ singleDoctor, handleBookings }) => {
   } = singleDoctor || {};
   const today = new Date().toLocaleDateString("en-US", { weekday: "long" });
   const isAvailableToday = singleDoctor?.availability?.includes(today);
+  console.log(isAvailableToday);
   const location = useLocation();
   useEffect(() => {
     if (singleDoctor) {
@@ -91,13 +92,13 @@ const DoctorDetailsContainer = ({ singleDoctor, handleBookings }) => {
         <div className="card-actions justify-center mt-2">
           <button
             onClick={handleBookings}
-            className={`btn border-2  w-5/6 rounded-4xl tracking-wider font-black
-              ${
-                !isAvailableToday
-                  ? "border-red-300 text-black cursor-not-allowed opacity-50"
-                  : "border-blue-700 bg-blue-700 hover:bg-blue-800 text-white "
-              }`}
             disabled={!isAvailableToday}
+            className={`border-2 py-2 w-5/6 rounded-4xl tracking-wider font-black
+              ${
+                isAvailableToday
+                  ? "border-blue-700 text-white bg-blue-700 hover:bg-blue-800"
+                  : "disabled:border-red-300 bg-white text-black disabled:cursor-not-allowed opacity-50"
+              }`}
           >
             Book Appointment Now
           </button>

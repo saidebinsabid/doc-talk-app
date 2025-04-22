@@ -30,7 +30,7 @@ const Booking = () => {
       document.title = "Booking";
     }
     return () => {
-      document.title = "";
+      document.title = "Doc Talk";
     };
   }, [location]);
 
