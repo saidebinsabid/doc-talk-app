@@ -12,6 +12,8 @@ const DoctorDetailsContainer = ({ singleDoctor, handleBookings }) => {
     image,
     work_at,
   } = singleDoctor || {};
+  const today = new Date().toLocaleDateString("en-US", { weekday: "long" });
+  const isAvailableToday = singleDoctor?.availability?.includes(today);
   return (
     <>
       <div className="p-6 bg-white rounded-2xl flex flex-col gap-4 md:flex-row">
@@ -59,9 +61,15 @@ const DoctorDetailsContainer = ({ singleDoctor, handleBookings }) => {
         <div className="border-1 border-gray-300 border-dashed"></div>
         <div className="flex justify-between">
           <p className="font-black">Availability</p>
-          <span className="bg-[#09982F1A] text-[#09982F] px-4 py-0.5 rounded-full text-sm">
-            Doctor Available Today
-          </span>
+          {isAvailableToday ? (
+            <span className="bg-[#09982F1A] text-[#09982F] px-4 py-0.5 rounded-full text-sm">
+              Doctor Available Today
+            </span>
+          ) : (
+            <span className="bg-red-200 text-red-500 px-4 py-0.5 rounded-full text-sm">
+              Doctor Not Available Today
+            </span>
+          )}
         </div>
         <div className="border-1 border-gray-300"></div>
         <div className="flex justify-center">
@@ -74,7 +82,13 @@ const DoctorDetailsContainer = ({ singleDoctor, handleBookings }) => {
         <div className="card-actions justify-center mt-2">
           <button
             onClick={handleBookings}
-            className="btn border-2 border-blue-700 bg-blue-700 hover:bg-blue-800 text-white  w-5/6 rounded-4xl tracking-wider font-black"
+            className={`btn border-2  w-5/6 rounded-4xl tracking-wider font-black
+              ${
+                !isAvailableToday
+                  ? "border-red-300 bg-white text-black cursor-not-allowed opacity-50"
+                  : "border-blue-700 bg-blue-700 hover:bg-blue-800 text-white "
+              }`}
+            disabled={!isAvailableToday}
           >
             Book Appointment Now
           </button>
