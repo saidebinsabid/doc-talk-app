@@ -121,7 +121,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-[#176AE5] rounded-2xl text-white tracking-wider font-black">
+        <a className="btn bg-[#176AE5] rounded-2xl text-white tracking-wider font-semibold shadow-md">
           Emergency
         </a>
       </div>

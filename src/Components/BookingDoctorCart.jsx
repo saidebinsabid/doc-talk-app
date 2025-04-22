@@ -7,7 +7,7 @@ const BookingDoctorCart = ({ doctor, handleDeleted }) => {
   return (
     <div className="flex flex-col">
       <div className="bg-white rounded-2xl p-6 space-y-4">
-        <div className="flex justify-between">
+        <div className="flex flex-wrap justify-between">
           <div className="space-y-2">
             <p className="font-black">{name}</p>
             <p className="text-gray-500 text-sm">

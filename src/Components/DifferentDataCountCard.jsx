@@ -39,7 +39,7 @@ const DifferentDataCountCard = () => {
         <img src={totalPatients} alt="patients-icon" />
         {inView3 && (
           <span className="text-5xl font-black">
-            <CountUp start={0} end={1900} duration={2} />+
+            <CountUp start={0} end={1900} duration={2} separator="" />+
           </span>
         )}
         <p className="pt-4 text-gray-500">Patients</p>
