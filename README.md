@@ -25,16 +25,6 @@ Built entirely with **React.js** and styled using **Tailwind CSS + DaisyUI**, th
 
 ---
 
-## 🧩 Project Layout
-
-- 🧭 Navbar: Home, My Bookings, Blogs, Contact Us
-- 🖼️ Hero Banner with relevant healthcare visuals
-- 🧑‍⚕️ Doctor Cards displaying key info and availability
-- 📈 Booking Dashboard with Recharts and Cancel Option
-- 🧮 Animated Stats: Total Doctors, Patients, Reviews, Staffs
-
----
-
 ## 🔧 Technologies Used
 
 - **React 19**, **React Router DOM**
@@ -69,7 +59,8 @@ src/
 - Doctor listing in card format with detailed modal view  
 - Appointment booking redirected to dashboard with chart  
 - Recharts-based doctor fee graph on My Bookings page  
-- Animated stats section using React CountUp  
+- Animated stats section using React CountUp
+- Footer with site name, contact info, social links, and legal links  
 
 ---
 
