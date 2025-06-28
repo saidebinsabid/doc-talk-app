@@ -7,7 +7,14 @@
     "speciality_details": "Heart diseases & care",
     "experience": "6 Years Experience",
     "registration_number": "BD 12451254",
-    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
     "consultation_fee": 1200,
     "image": "https://i.ibb.co.com/GQ28V9Pn/Screenshot-2025-04-21-031559.png",
     "work_at": "National Heart Institute, Dhaka"
@@ -20,7 +27,7 @@
     "speciality_details": "Brain & nerve disorders",
     "experience": "8 Years Experience",
     "registration_number": "BD 12451255",
-    "availability": ["Tuesday", "Wednesday", "Friday"],
+    "availability": ["Saturday", "Tuesday", "Wednesday", "Friday"],
     "consultation_fee": 1500,
     "image": "https://i.ibb.co.com/JW94tmLK/Screenshot-2025-04-21-030751.png",
     "work_at": "Bangladesh Specialized Hospital, Dhaka"
@@ -33,7 +40,7 @@
     "speciality_details": "Skin, hair, nail care",
     "experience": "5 Years Experience",
     "registration_number": "BD 12451256",
-    "availability": ["Monday", "Wednesday", "Thursday"],
+    "availability": ["Saturday", "Monday", "Wednesday", "Thursday"],
     "consultation_fee": 1000,
     "image": "https://i.ibb.co.com/XZwy8jcs/Screenshot-2025-04-21-031625.png",
     "work_at": "Popular Medical College Hospital, Dhaka"
@@ -46,7 +53,7 @@
     "speciality_details": "Digestive system issues",
     "experience": "10 Years Experience",
     "registration_number": "BD 12451257",
-    "availability": ["Monday", "Tuesday", "Thursday"],
+    "availability": ["Saturday", "Monday", "Tuesday", "Thursday"],
     "consultation_fee": 1300,
     "image": "https://i.ibb.co.com/twQfK9PQ/Screenshot-2025-04-21-030859.png",
     "work_at": "Ibn Sina Hospital, Dhaka"

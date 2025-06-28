@@ -10,6 +10,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -38,11 +39,7 @@ export const router = createBrowserRouter([
           <span className="loading loading-bars loading-xl"></span>
         ),
         loader: () => fetch("../questions.json"),
-      },
-      {
-        path: "/error",
-        Component: ErrorPage,
-      },
+      },   
     ],
   },
 ]);
